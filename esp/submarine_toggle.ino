@@ -2,13 +2,13 @@
 #include "OOCSI.h"
 
 // 1. Local Wi-Fi credentials
-const char* ssid = "your_wifiname";
-const char* password = "your_wifipassword";
+const char* ssid = "your_wifi_name";//please insert your wifi name(ssid)
+const char* password = "your_wifi_password";//please insert your wifi password
 
 // 2. OOCSI Network Handles
 const char* oocsiServer = "oocsi.id.tue.nl"; 
-const char* clientName = "your_client_name";     
-const char* channelName = "OOCSI-things/specificchannel";
+const char* clientName = "your_client_name"; //please replace to your client name   
+const char* channelName = "OOCSI-things/yourchannel"; //please replace to your channel
 
 OOCSI oocsi = OOCSI();
 
