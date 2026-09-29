@@ -5,11 +5,13 @@
 - The physical device is an ESP32, connected with a button or any two-position switch.
 
 The version of:
-p5.js: 1.9.0.
-Arduino IDE: 2.3.10.
-OOCSI Library: 1.6.0.
+- p5.js: 1.9.0
+- Arduino IDE: 2.3.10
+- OOCSI Library: 1.6.0
 
 REMINDER
+
+
 Please replace the words in these two files:
 - interface/sketch.js:
   1. clientName (eg: submarine_interface)
@@ -23,8 +25,7 @@ Please replace the words in these two files:
 
 There are two folders containing two devices:
 
-esp: connect to an ESP device with a switch or a button, and this file can be driven in the Arduino IDE
-- Please ensure that your Arduino IDE has imported OOCSI library already.
+esp: connect to an ESP device with a switch or a button, and this file can be driven in the Arduino IDE (Please ensure that your Arduino IDE has imported OOCSI library already)
 - submarine_toggle.ino: main code to trigger the toggle switch from ESP.
 
 
