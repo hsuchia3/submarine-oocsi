@@ -10,10 +10,10 @@ function setup() {
   centerY = height / 2;
 
   // connect to OOCSI server
-  let clientName = "your_client_name" + floor(random(10000));
+  let clientName = "your_client_name" + floor(random(10000));//please replace to your client name
   OOCSI.connect("wss://oocsi.id.tue.nl/ws", clientName);
   
-  OOCSI.subscribe("OOCSI-things/yourchannel", function(msg) {
+  OOCSI.subscribe("OOCSI-things/yourchannel", function(msg) {//please replace to your channel
     if (msg.data.hasOwnProperty("lampo_toggle")) {
       lightOn = msg.data.lampo_toggle;
       
@@ -81,13 +81,13 @@ function draw() {
 function mousePressed() {
   if (mouseIsOverLight()) {
     lightOn = true;
-    OOCSI.sent("OOCSI-things/yourchannel",{lampo_toggle: true});
+    OOCSI.sent("OOCSI-things/yourchannel",{lampo_toggle: true});//please replace to your channel
   }
 }
 
 function mouseReleased() {
   lightOn = false;
-  OOCSI.sent("OOCSI-things/yourchannel",{lampo_toggle: flase});
+  OOCSI.sent("OOCSI-things/yourchannel",{lampo_toggle: flase});//please replace to your channel
 }
 
 function mouseIsOverLight() {
