@@ -10,10 +10,10 @@ function setup() {
   centerY = height / 2;
 
   // connect to OOCSI server
-  let clientName = "p5_Receiver_team12_" + floor(random(10000));
+  let clientName = "your_client_name" + floor(random(10000));
   OOCSI.connect("wss://oocsi.id.tue.nl/ws", clientName);
   
-  OOCSI.subscribe("OOCSI-things/team-12", function(msg) {
+  OOCSI.subscribe("OOCSI-things/yourchannel", function(msg) {
     if (msg.data.hasOwnProperty("lampo_toggle")) {
       lightOn = msg.data.lampo_toggle;
       
