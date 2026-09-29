@@ -11,13 +11,13 @@ The version of OOCSI is 1.6.0
 REMINDER
 Please replace the words in these two files:
 - interface/sketch.js:
-  1. clientName(ex:submarine_interface)
-  2. OOCSI-things/yourchannel(eg:OOCSI-things/team20)
+  1. clientName (eg: submarine_interface)
+  2. OOCSI-things/yourchannel (eg: OOCSI-things/team20)
 - esp/submarine_toggle.ino:
   1. your_wifiname
   2. your_wifipassword 
-  3. your_client_name(eg: esp32_toggle)
-  4. OOCSI-things/yourchannel(eg:OOCSI-things/team20)
+  3. your_client_name (eg: esp32_toggle)
+  4. OOCSI-things/yourchannel (eg: OOCSI-things/team20)
 
 
 There are two folders containing two devices:
