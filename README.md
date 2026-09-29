@@ -1,3 +1,4 @@
+#submarine-oocsi
 "submarine-oocsi" contains an interactive interface with the mouse pressed and a toggle switch from the OOCSI for Design Connected Experience course at TU/e (DBSU10).
 
 - The interface is created by p5.js, the user can press the mouse button on the window and light it up,  releasing the mouse to turn off the light.
