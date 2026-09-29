@@ -81,11 +81,13 @@ function draw() {
 function mousePressed() {
   if (mouseIsOverLight()) {
     lightOn = true;
+    OOCSI.sent("OOCSI-things/yourchannel",{lampo_toggle: true});
   }
 }
 
 function mouseReleased() {
   lightOn = false;
+  OOCSI.sent("OOCSI-things/yourchannel",{lampo_toggle: flase});
 }
 
 function mouseIsOverLight() {
