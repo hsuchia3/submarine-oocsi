@@ -4,9 +4,10 @@
 - It can also be connected to different electronic devices and operate together as long as the user succefully connect to the correct channel on OOCSI.
 - The physical device is an ESP32, connected with a button or any two-position switch.
 
-The version of p5.js is 1.9.0
-The version of Arduino IDE is 2.3.10
-The version of OOCSI is 1.6.0
+The version of:
+p5.js: 1.9.0.
+Arduino IDE: 2.3.10.
+OOCSI Library: 1.6.0.
 
 REMINDER
 Please replace the words in these two files:
