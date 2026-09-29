@@ -2,18 +2,18 @@
 #include "OOCSI.h"
 
 // 1. Local Wi-Fi credentials
-const char* ssid = "iotroam";
-const char* password = "KU4tDV6Zin";
+const char* ssid = "your_wifiname";
+const char* password = "your_wifipassword";
 
 // 2. OOCSI Network Handles
 const char* oocsiServer = "oocsi.id.tue.nl"; 
-const char* clientName = "esp_controller_12";     
-const char* channelName = "OOCSI-things/team-12";
+const char* clientName = "your_client_name";     
+const char* channelName = "OOCSI-things/specificchannel";
 
 OOCSI oocsi = OOCSI();
 
 // The metal plate is wired to this pin, and the needle is wired to GND
-const int needlePin = 4;   
+const int needlePin = 4; //please change the pin code if you didn't wire ar 4  
 bool lastState = false;
 
 void setup() {
